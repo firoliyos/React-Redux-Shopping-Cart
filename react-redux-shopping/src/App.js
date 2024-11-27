@@ -7,7 +7,8 @@ import Header from './components/header';
 function App() {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
+      <nav>Hello</nav>
       <Routes>
         <Route exact path='/'
         element={<Home />} 
@@ -19,5 +20,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
